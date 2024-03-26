@@ -1,0 +1,7 @@
+# Use an official PostgreSQL image as a parent image
+FROM postgres:alpine
+
+# Set the PostgreSQL environment variables
+ENV POSTGRES_USER=root
+ENV POSTGRES_PASSWORD=vbnm
+ENV POSTGRES_DB=grocery-ecom
